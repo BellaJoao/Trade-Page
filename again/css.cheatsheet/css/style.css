@@ -1,0 +1,148 @@
+#container {
+  width: 95vw;
+  height: 60vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.item-one {
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  border: solid 4px black;
+  font-style: italic;
+  font-size: larger;
+  display: grid;
+  position: relative;
+  right: 80px;
+  position: relative;
+  top: 10%;
+  margin-bottom: 70%;
+  margin-left: 160px;
+  width: 300px;
+  position: relative;
+  top: 108px;
+  height: 650px;
+  font-family: cursive;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.item-two {
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  border: solid 4px black;
+  font-style: italic;
+  font-size: larger;
+  display: grid;
+  align-content: center;
+  position: relative;
+  left: 30%;
+  position: relative;
+  top: 10%;
+  margin-bottom: 80%;
+  width: 615px;
+  height: 275px;
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+
+.item-three {
+  background-color: white;
+  position: relative;
+  top: 850px;
+  position: relative;
+  right: 1040px;
+  border: solid black 4px;
+  height: 142px;
+  width: 1200px;
+  text-align: center;
+  font-style: italic;
+  padding-top: 5px;
+  font-family: cursive;
+  align-content: center;
+  text-align: center;
+}
+
+.titel {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-style: italic;
+}
+
+.item:nth-child(1) {
+  font-size: x-large;
+  grid-row: span 2;
+}
+
+.subtitel {
+  border: solid 4px black;
+  width: 670px;
+  position: relative;
+  left: 653px;
+  position: relative;
+  bottom: 320px;
+  text-align: center;
+  background-color: whitesmoke;
+  font-style: italic;
+  font-family: cursive;
+}
+
+body {
+  height: 150vh;
+  background: linear-gradient(45deg, rgb(76, 0, 255), transparent);
+}
+
+.btn-1 {
+  height: 70px;
+  width: 140px;
+  border: solid black 4px;
+  position: relative;
+  left: 725px;
+  position: relative;
+  bottom: 280px;
+  background-color: cornflowerblue;
+  font-size: large;
+  font-style: italic;
+}
+
+.btn-2 {
+  height: 70px;
+  width: 140px;
+  border: solid black 4px;
+  position: relative;
+  left: 775px;
+  position: relative;
+  bottom: 280px;
+  background-color: cornflowerblue;
+  font-size: large;
+  font-style: italic;
+}
+
+.btn-3 {
+  height: 70px;
+  width: 140px;
+  border: solid black 4px;
+  position: relative;
+  left: 825px;
+  position: relative;
+  bottom: 280px;
+  background-color: cornflowerblue;
+  font-size: large;
+  font-style: italic;
+}
+
+a {
+  color: #000000;
+}

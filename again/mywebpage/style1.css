@@ -1,0 +1,111 @@
+.titel {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-style: italic;
+  position: relative;
+  top: 35px;
+}
+
+#container {
+  width: 95vw;
+  height: 60vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.box-1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-style: italic;
+  width: 300px;
+  height: 600px;
+  position: relative;
+  right: 80px;
+  position: relative;
+  top: 100px;
+  background-color: white;
+}
+
+.box-2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-style: italic;
+  width: 300px;
+  height: 600px;
+  position: relative;
+  left: 480px;
+  position: relative;
+  top: 100px;
+  background-color: white;
+}
+
+.box-3 {
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-style: italic;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  right: 580px;
+  position: relative;
+  top: 820px;
+  background-color: white;
+  padding-bottom: 8px;
+}
+
+.video {
+  position: relative;
+  left: 405px;
+  position: relative;
+  bottom: 994px;
+  border: solid black 5px;
+  width: 602px;
+  height: 352px;
+}
+
+body {
+  height: 180vh;
+  background: linear-gradient(45deg, rgb(76, 0, 255), transparent);
+}
+
+img {
+  position: relative;
+  left: 100px;
+  position: relative;
+  bottom: 100px;
+  border: solid black 4px;
+  background-color: aliceblue;
+}
+
+.img2 {
+  position: relative;
+  left: 900px;
+  background-color: aliceblue;
+}

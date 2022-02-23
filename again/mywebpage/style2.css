@@ -1,0 +1,87 @@
+.titel {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  border: solid black 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-style: italic;
+  position: relative;
+  top: 2px;
+}
+
+#container {
+  width: 80vw;
+  height: 60vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 1em;
+}
+
+.box-1 {
+  text-align: center;
+  border: solid black 4px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.box-2 {
+  text-align: center;
+  border: solid black 4px;
+  height: 200px;
+  position: relative;
+  top: 770px;
+  background-color: white;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+
+.box-3 {
+  text-align: center;
+  border: solid black 4px;
+  height: 505px;
+  width: 265px;
+  position: relative;
+  bottom: 30px;
+  background-color: white;
+  font-family: cursive;
+  font-size: large;
+  color: black;
+  padding-bottom: 1px;
+  font-style: italic;
+  position: relative;
+  left: 860px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+img {
+  position: relative;
+  left: 10%;
+  position: relative;
+  bottom: 420px;
+  width: 800px;
+  height: 500px;
+  border: solid purple 4px;
+}
+
+body {
+  height: 195vh;
+  background: linear-gradient(45deg, rgb(76, 0, 255), transparent);
+}
